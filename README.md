@@ -1,22 +1,10 @@
 # Tenx MCP Analysis Configuration
 
-This repository contains MCP (Model Context Protocol) configuration for the Tenx Analysis server and improved AI agent rules based on best practices.
-
----
-
-## Overview
-
-This workspace is configured to:
-1. **Log developer interactions** using the Tenx MCP Analysis server
-2. **Guide AI agent behavior** with comprehensive rules for effective collaboration
-
----
-
-## What I Did
+## What You Did - Describe the changes you made to your rules file
 
 ### Changes Made to Rules Files
 
-#### 1. `.cursor/rules/agent.md` and `.github/copilot-instructions.md`
+#### `.cursor/rules/agent.md` and `.github/copilot-instructions.md`
 
 **Major Restructuring:**
 - Reorganized from a trigger-focused ruleset to a comprehensive AI agent guide
@@ -42,7 +30,7 @@ This workspace is configured to:
 
 ---
 
-## What Worked
+## What Worked - What configurations or approaches were successful
 
 ### Successful Configurations
 
@@ -68,7 +56,7 @@ This workspace is configured to:
 
 ---
 
-## What Didn't Work
+## What Didn't Work - What challenges did you face, and how did you troubleshoot
 
 ### Challenges and Troubleshooting
 
@@ -94,7 +82,7 @@ This workspace is configured to:
 
 ---
 
-## Insights Gained
+## Insights Gained - How do rules change the behavior of the AI agent to align with your intent, thought pattern, and expectation
 
 ### How Rules Change Agent Behavior
 
@@ -169,52 +157,4 @@ This workspace is configured to:
 
 ---
 
-## Files in This Repository
-
-```
-.github/
-├── copilot-instructions.md  # VSCode agent rules
-├── copilot-instructions.md  # Copilot instructions
-└── README.md               # This file
-
-.cursor/
-├── mcp.json               # Cursor MCP configuration
-└── rules/
-    └── agent.md           # Cursor agent rules
-
-.vscode/
-├── mcp.json               # VSCode MCP configuration
-└── settings.json          # VSCode settings
-
-README.md                  # Project documentation
-```
-
----
-
-## Quick Start
-
-### For Cursor IDE
-
-1. Open this repository in Cursor
-2. The agent rules in `.cursor/rules/agent.md` are automatically loaded
-3. MCP server connects to `https://mcppulse.10academy.org/proxy`
-
-### For VSCode
-
-1. Open this repository in VSCode
-2. The agent rules in `.github/copilot-instructions.md` are loaded
-3. MCP server connects to `https://mcppulse.10academy.org/proxy`
-
----
-
-## References
-
-- [Boris Cherny's Workflow](https://twitter.com/boriscyrny) - AI Agent Best Practices
-- [Cursor Rules Documentation](https://cursor.sh/rules)
-- [MCP Protocol](https://modelcontextprotocol.io/) - Model Context Protocol
-- [Tenx MCP Analysis Server](https://github.com) - Interaction logging framework
-
----
-
 *Last Updated: 2024-02-02*
-*Maintained by: Tenacious Team*
