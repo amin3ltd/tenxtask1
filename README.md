@@ -60,25 +60,11 @@
 
 ### Challenges and Troubleshooting
 
-1. **Initial File Creation**
+ **Initial File Creation**
    - **Challenge**: Created a duplicate MCP server implementation when the server already existed
    - **Troubleshooting**: Removed unnecessary files and focused on interacting with existing server
    - **Lesson**: Verify existing infrastructure before building new solutions
 
-2. **Git Repository Setup**
-   - **Challenge**: Directory was not initialized as a git repository
-   - **Troubleshooting**: Helped user initialize with `git init` and commit files
-   - **Lesson**: Check git status before attempting operations
-
-3. **Branch Naming**
-   - **Challenge**: Default branch was `master` not `main`
-   - **Troubleshooting**: Used `git branch -M main` to rename
-   - **Lesson**: Verify branch names before pushing
-
-4. **Remote Configuration**
-   - **Challenge**: User needed to create GitHub repository first
-   - **Troubleshooting**: Provided instructions for creating repo and adding remote
-   - **Lesson**: Document full setup process for new users
 
 ---
 
